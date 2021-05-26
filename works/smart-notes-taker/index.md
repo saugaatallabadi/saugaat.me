@@ -1,9 +1,9 @@
 ---
 title: "Smart Notes Taker"
-date: 2020-01-27
+date: 2019-06-27
 client: Personal
 services: "Front-end development, UI/UX design"
-tech: "React, Redux, HTML5, CSS3"
+tech: "React, Ai, HTML5, CSS3"
 website: "https://dashboard.swaypay.io/messaging"
 featuredImg: "/autoinvite-chat/preview.png"
 ---

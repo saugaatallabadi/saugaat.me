@@ -10,6 +10,10 @@ import react from './react.svg'
 import reactWhite from './reactWhite.svg'
 import redux from './redux.svg'
 import reduxWhite from './reduxWhite.svg'
+import ai from './ai.svg'
+import aiWhite from './aiWhite.svg'
+import cube from './cube.svg'
+import cubeWhite from './cubeWhite.svg'
 
 const icons = {
   css3,
@@ -23,7 +27,11 @@ const icons = {
   react,
   reactWhite,
   redux,
-  reduxWhite
+  reduxWhite,
+  ai,
+  aiWhite,
+  cube,
+  cubeWhite,
 }
 
 export default icons
