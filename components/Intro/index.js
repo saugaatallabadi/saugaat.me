@@ -6,35 +6,33 @@ const Intro = () => (
       <div className={styles.shortOne}>
         <p className={styles.greeting}>Hi, I’m Saugaat</p>
         <p className={styles.myTitle}>
-          a web developer <br />
-          and UI/UX designer
+          {/* a Software Engineer <br />
+          and Conversation Architect. */}
+          and I am an <strike>alcoho…</strike>&nbsp;&nbsp;<br />
+          ML Engineer&nbsp;&nbsp;👀
         </p>
-        <a target="_blank" rel="noopener noreferrer" href="mailto:mail@saugaat.me">
+        <a target="_blank" rel="noopener noreferrer" href="mailto:saugaatallabadi@gmail.com">
           <button className={styles.helloButton}>Say hello</button>
         </a>
       </div>
       <div className={styles.longOne}>
+
         <p>
-          I am a Software Developer by day...and by night...and the next day... ∞
-        <br /> I’m experienced in <strong>HTML5</strong>
-          , <strong>JS</strong> and <strong>CSS3</strong> and modern libraries{' '}
-          <strong>React</strong>, <strong>Gatsby </strong>
-          and <strong>Next.js</strong>.
-        </p>
+          A software engineer, open source creator, writer, and former procrastinator.
+          </p>
         <p>
-          I’m also the organizer of{' '}
-          <a
-            href="https://kommunity.com/reactjs-istanbul"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Tech Talks
-          </a>
-          , a community for React developers in Dubai.
+          This website is my <strong>digital garden</strong> and a compendium of the things I have learned over the past couple years.
         </p>
-        <p>
-          Currently working for full-time as Senior Software Engineer with PwC.
-        </p>
+
+
+          Currently working for full-time as Senior Software Engineer with {' '}
+        <a
+          href="https://www.pwc.com/m1/en.html"
+          target="_blank"
+          rel="noreferrer"
+        >
+          PwC
+          </a>.
       </div>
     </div>
     <div className={styles.br}></div>

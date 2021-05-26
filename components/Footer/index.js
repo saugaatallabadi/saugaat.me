@@ -5,6 +5,7 @@ import dribbbleLogo from './dribble.svg'
 import styles from './Footer.module.css'
 import githubLogo from './github.svg'
 import logomark from './logomark.svg'
+import linkedinLogo from './linkedin.svg'
 // import twitterLogo from './twitter.svg'
 
 const Footer = ({ noBorder }) => (
@@ -25,6 +26,13 @@ const Footer = ({ noBorder }) => (
             </a>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/saugaatallabadi">
               <img src={githubLogo} alt="saugaat on github" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://linkedin.com/in/saugaatallabadi"
+            >
+              <img src={linkedinLogo} alt="saugaat on linkedin" />
             </a>
           </li>
         </ul>
