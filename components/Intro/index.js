@@ -8,8 +8,7 @@ const Intro = () => (
         <p className={styles.myTitle}>
           {/* a Software Engineer <br />
           and Conversation Architect. */}
-          and I am an <strike>alcoho…</strike>&nbsp;&nbsp;<br />
-          ML Engineer&nbsp;&nbsp;👀
+          and I Support Vector Machines.
         </p>
         <a target="_blank" rel="noopener noreferrer" href="mailto:saugaatallabadi@gmail.com">
           <button className={styles.helloButton}>Say hello</button>

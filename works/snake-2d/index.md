@@ -1,9 +1,9 @@
 ---
-title: "Sneaker 3D"
-date: 2021-02-26
+title: "Snake 2D"
+date: 2020-01-17
 client: Personal
 services: "Front-end development, UI/UX design"
-tech: "React, Cube, HTML5, CSS3"
+tech: "React, Redux, HTML5, CSS3"
 website: "https://dashboard.swaypay.io/messaging"
 featuredImg: "/autoinvite-chat/preview.png"
 ---
