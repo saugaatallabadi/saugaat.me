@@ -4,14 +4,14 @@ const IntroFull = () => (
   <>
     <div className={styles.intro}>
       <div className={styles.shortOne}>
-        <p className={styles.greeting}>Hi, I’m Saugaat</p>
+        <p className={styles.greeting}>I’m Saugaat</p>
         <p className={styles.myTitle}>
           {/* a Software Engineer <br />
           and Conversation Architect. */}
-          and I Support Vector Machines2.
+          Nice to meet me.
         </p>
         <a target="_blank" rel="noopener noreferrer" href="mailto:saugaatallabadi@gmail.com">
-          <button className={styles.helloButton}>Say hello</button>
+          <button className={styles.helloButton}>Mail me.</button>
         </a>
       </div>
       <div className={styles.longOne}>

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './Intro.module.css'
 
 const Intro = () => (
@@ -8,11 +9,12 @@ const Intro = () => (
         <p className={styles.myTitle}>
           {/* a Software Engineer <br />
           and Conversation Architect. */}
-          and I Support Vector Machines.
+          and I turn coffee into code.
         </p>
-        <a target="_blank" rel="noopener noreferrer" href="mailto:saugaatallabadi@gmail.com">
-          <button className={styles.helloButton}>Say hello</button>
-        </a>
+        {/* <a target="_blank" rel="noopener noreferrer" href="mailto:saugaatallabadi@gmail.com">
+          <button className={styles.helloButton}>About me</button>
+        </a> */}
+        <Link href="/about"><a className={styles.helloButton}>About me</a></Link>
       </div>
       <div className={styles.longOne}>
 
