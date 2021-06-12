@@ -11,8 +11,10 @@ const Header = () => (
           <img className={styles.logo} src={logo} width="150" alt="" />
         </a>
       </Link>
-      {/* <nav className={styles.nav}>
-        <Link href="/blog"><a>Blog</a></Link>
+      <nav className={styles.nav}>
+        <Link href="/about"><a>About</a></Link>
+        <Link href="/study"><a>Study</a></Link>
+        <Link href="/projects"><a>Projects</a></Link>
         <a
           className={styles.contactLink}
           href="mailto:saugaatallabadi@gmail.com"
@@ -21,7 +23,7 @@ const Header = () => (
         >
           Contact
         </a>
-      </nav> */}
+      </nav>
     </div>
   </header>
 )

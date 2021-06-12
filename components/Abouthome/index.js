@@ -1,15 +1,15 @@
 import SEO from '../SEO'
 import WorkList from '../WorkList'
-import styles from './Home.module.css'
+import styles from './Abouthome.module.css'
 
-const Home = () => (
-  <div className={styles.home}>
+const Abouthome = () => (
+  <div className={styles.about}>
     <SEO
       title="Saugaat Allabadi"
       description="Portfolio of Saugaat, a Machine Learning Engineer"
     />
-    <WorkList />
+    {/* <WorkList /> */}
   </div>
 )
 
-export default Home
+export default Abouthome

@@ -5,14 +5,14 @@ import HomeWork from '../components/HomeWork'
 import Intro from '../components/Intro'
 import Layout from '../components/Layout'
 
-const Index = () => (
-  <Layout>
-    <div>
-      <Header />
-      <Intro />
-      <HomeWork />
-    </div>
-  </Layout>
+const Projects = () => (
+    <Layout>
+        <div>
+            <Header />
+            {/* <Intro /> */}
+            <HomeWork />
+        </div>
+    </Layout>
 )
 
-export default Index
+export default Projects

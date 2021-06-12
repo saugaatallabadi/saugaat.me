@@ -1,6 +1,6 @@
-import styles from './Intro.module.css'
+import styles from './IntroFull.module.css'
 
-const Intro = () => (
+const IntroFull = () => (
   <>
     <div className={styles.intro}>
       <div className={styles.shortOne}>
@@ -8,7 +8,7 @@ const Intro = () => (
         <p className={styles.myTitle}>
           {/* a Software Engineer <br />
           and Conversation Architect. */}
-          and I Support Vector Machines.
+          and I Support Vector Machines2.
         </p>
         <a target="_blank" rel="noopener noreferrer" href="mailto:saugaatallabadi@gmail.com">
           <button className={styles.helloButton}>Say hello</button>
@@ -38,4 +38,4 @@ const Intro = () => (
   </>
 )
 
-export default Intro
+export default IntroFull
