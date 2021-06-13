@@ -8,7 +8,6 @@ const Abouthome = () => (
       title="Saugaat Allabadi"
       description="Portfolio of Saugaat, a Machine Learning Engineer"
     />
-    {/* <WorkList /> */}
   </div>
 )
 
