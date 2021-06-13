@@ -1,10 +1,10 @@
 ---
-title: "Study1"
+title: "Learning Spanish"
 date: 2018-01-01
 client: SwayPay
 services: "Front-end development, UI/UX design"
 tech: "React, HTML5, CSS3, Figma"
-featuredImg: "/savibook/preview.png"
+featuredImg: "/learning-spanish/preview.png"
 typeOfContent: "study"
 ---
 

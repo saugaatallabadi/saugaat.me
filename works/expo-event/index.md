@@ -4,7 +4,7 @@ date: 2020-01-08
 client: Personal
 services: "Front-end development, UI/UX design"
 tech: "React, Redux, HTML5, CSS3"
-website: "https://dashboard.swaypay.io/messaging"
+website: "https://virtual-event-saugaat.vercel.app/schedule"
 featuredImg: "/autoinvite-chat/preview.png"
 typeOfContent: "project"
 ---

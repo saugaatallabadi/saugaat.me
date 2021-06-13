@@ -5,7 +5,7 @@ client: Personal
 services: "Front-end development, UI/UX design"
 tech: "React, Redux, HTML5, CSS3"
 website: "https://dashboard.swaypay.io/messaging"
-featuredImg: "/autoinvite-chat/preview.png"
+featuredImg: "/snake-2d/preview.png"
 typeOfContent: "project"
 ---
 

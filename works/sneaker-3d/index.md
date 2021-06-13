@@ -3,9 +3,9 @@ title: "Sneaker 3D"
 date: 2021-02-26
 client: Personal
 services: "Front-end development, UI/UX design"
-tech: "React, Cube, HTML5, CSS3"
-website: "https://dashboard.swaypay.io/messaging"
-featuredImg: "/autoinvite-chat/preview.png"
+tech: "HTML5, CSS3, Cube"
+website: "https://sneaker-3d.vercel.app"
+featuredImg: "/sneaker-3d/preview.png"
 typeOfContent: "project"
 ---
 
