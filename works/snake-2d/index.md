@@ -1,5 +1,5 @@
 ---
-title: "Snake 2D"
+title: "Snake Game with Machine Learning"
 date: 2020-01-17
 client: Personal
 services: "Front-end development, UI/UX design"
@@ -7,6 +7,7 @@ tech: "React, Redux, HTML5, CSS3"
 website: "https://dashboard.swaypay.io/messaging"
 featuredImg: "/snake-2d/preview.png"
 typeOfContent: "project"
+bgColor: "#0E0C0D"
 ---
 
 This is a chat service for hoteliers to communicate with their guests instantly & seamlessly. AutoInvite Chat is designed with both guests’ and hotel agents’ ease of use in mind: Guests can just send a text message, and hoteliers will be able to manage and reply to all requests and questions from a single screen, in real-time.

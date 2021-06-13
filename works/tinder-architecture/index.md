@@ -6,6 +6,7 @@ services: "Front-end development, UI/UX design"
 tech: "React, HTML5, CSS3, Figma"
 featuredImg: "/tinder-architecture/preview.png"
 typeOfContent: "study"
+bgColor: "#4aa1e9"
 ---
 
 Savibook is mobile-friendly web application for hotels to share special offers with guests using their own branding, with customized page layout designed for each of our partner hotels. Guests get personalized offers and quickly complete their bookings. Savibook also helps hotels easily collect post-stay feedback.

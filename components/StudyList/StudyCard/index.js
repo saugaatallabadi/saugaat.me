@@ -6,20 +6,20 @@ import Icon from '../../Icon'
 import styles from './StudyCard.module.css'
 
 // const bgColors = ['#4A2BAF', '#0F61C0', '#9E2B79', '#4146B5', '#8AA8A1']
-const bgColors = ['#003A52', '#CC8500', '#30735D', '#005F73', '#BB3E03', '#0A9396', '#CA6702', '#9B2226']
+// const bgColors = ['#003A52', '#CC8500', '#30735D', '#005F73', '#BB3E03', '#0A9396', '#CA6702', '#9B2226']
 
 const WorkCard = props => {
   const {
     index,
     slug,
     document: {
-      data: { title, date, services, tech, featuredImg }
+      data: { title, date, services, tech, featuredImg, bgColor }
     }
   } = props
 
   return (
     <Link href="/study/[sid]" as={`/study/${slug}`}>
-      <a className={styles.card} style={{ background: bgColors[index % 8] }}>
+      <a className={styles.card} style={{ background: bgColor }}>
         <div className={styles.info}>
           <p className={styles.date}>{new Date(date).getFullYear()}</p>
           <h1 className={styles.title}>{title}</h1>
