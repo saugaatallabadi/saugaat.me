@@ -10,7 +10,7 @@ const Index = () => (
     <div>
       <Header />
       <Intro />
-      <HomeWork />
+      <HomeWork length={3} />
     </div>
   </Layout>
 )

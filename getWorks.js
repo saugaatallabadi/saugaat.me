@@ -23,8 +23,6 @@ async function getWorks() {
     const pages = getPages(
       require.context('./works', true, /index.md$/),
       require.context('./works', true, /images.md$/),
-      require.context('./studies', true, /index.md$/),
-      require.context('./studies', true, /images.md$/)
     )
 
     resolve(pages)

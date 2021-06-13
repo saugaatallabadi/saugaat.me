@@ -8,7 +8,12 @@ import StudyCard from './StudyCard'
 import styles from './StudyList.module.css'
 
 const StudyList = () => {
-  const study = useContext(WorksContext).sort(
+
+  const filtering = useContext(WorksContext).filter(
+    (data) => data.document.data.typeOfContent == 'study'
+  )
+
+  const study = filtering.sort(
     (a, b) => new Date(b.document.data.date) - new Date(a.document.data.date)
   )
 

@@ -5,7 +5,7 @@ import HomeStudy from '../components/HomeStudy'
 import Intro from '../components/Intro'
 import Layout from '../components/Layout'
 
-const Projects = () => (
+const Study = () => (
     <Layout>
         <div>
             <Header />
@@ -15,4 +15,4 @@ const Projects = () => (
     </Layout>
 )
 
-export default Projects
+export default Study
